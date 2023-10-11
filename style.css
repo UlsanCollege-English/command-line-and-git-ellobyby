@@ -1,0 +1,107 @@
+body {
+    margin:0;
+}
+img{
+    width: 300px;
+    margin:auto; /* margin is used to adjust the space image */
+    display:block;
+}
+p{
+    color: rgb(3, 94, 30);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.heading{
+    font-size: 35px;
+    color: rgb(126, 177, 7);
+    text-decoration: underline;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    justify-content: center;
+    background-color:rgb(75, 236, 182);
+    margin-top: 0px;
+    width: 100%;
+    
+}
+ul {
+    margin-top: 80px;
+}
+
+.topic{
+    text-decoration: underline;
+}
+
+
+.heading:hover {
+   display: flex;
+   color: purple;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+
+ }
+ .heading {
+    animation: animate 4s 1;
+    transition: 0.5s ease;
+ }
+ p{
+        color: purple;
+}
+body{
+        background-color:aquamarine;
+}
+@keyframes animate{
+ 0% {
+    transform: scale(0);
+ }
+ 100% {
+    transform: scale(1);
+ }
+}
+ /* Styles for desktop screens (screen width >= 1024px) */
+ @media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Styles for tablets (screen width between 768px and 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Styles for mobile devices (screen width < 768px) */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    } 
+}
+h3{
+    text-decoration: underline;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(193, 209, 204);
+    padding: 10px;
+  }
+.grid-item {
+    background-color: aquamarine;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+/* Style for normal links */
+a {
+    color: #007bff; /* Default link color */
+    transition: color 0.3s ease; /* Add a color transition with a 0.3s duration and ease timing function */
+}
+
+/* Style for link hover states */
+a:hover {
+    color: #eca674; /* New link color on hover */
+}
