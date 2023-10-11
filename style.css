@@ -12,16 +12,18 @@ p{
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 .heading{
-    font-size: 35px;
+    font-size: 45px;
     color: rgb(126, 177, 7);
     text-decoration: underline;
     display: flex;
     position: fixed;
     top: 0px;
     justify-content: center;
-    background-color:rgb(75, 236, 182);
+    align-items: center;
+    background-color:rgb(234, 32, 96);
     margin-top: 0px;
     width: 100%;
+    height: 80px;
     
 }
 ul {
